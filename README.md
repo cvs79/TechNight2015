@@ -1,4 +1,5 @@
 # TechNight2015
+<<<<<<< HEAD
 
 Here you will find the code samples used in the TechNight 2015 presentation. 
 
@@ -13,3 +14,12 @@ For this you need to have an Visual Studio 2015 RC (or greater) installation and
 
 
 &copy; IC360
+=======
+Code used for the TechNight2015 demos
+
+```c#
+if (isAwesome){
+  return true
+}
+```
+>>>>>>> origin/master
