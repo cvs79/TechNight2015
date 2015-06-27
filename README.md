@@ -5,7 +5,7 @@ Here you will find the code samples used in the TechNight 2015 presentation.
 ### ASP.NET 5 on Docker in Linux vm
 For this you need to have an Visual Studio 2015 RC (or greater) installation.
 
-### APP Service WebSite
+### App Service WebSite
 The ASP.NET website which shows the Tweets gathered by the Azure Logic APP
 
 ### Azure Service Fabric
