@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "PiCalculatorApplication", "PiCalculatorApplication\PiCalculatorApplication.sfproj", "{02E66B3C-8313-4798-BD0E-49DCADE86044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiCalculator", "PiCalculator\PiCalculator.csproj", "{F12CF9AD-2835-4D9D-8904-2D2D045DBCD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiCalculator.Interfaces", "PiCalculator.Interfaces\PiCalculator.Interfaces.csproj", "{693AD01D-22F8-4830-A239-C7ABC0F2F4B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiCalculator.Client", "PiCalculator.Client\PiCalculator.Client.csproj", "{5C90EA21-60EA-4C0C-9F6D-AAE545892F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E66B3C-8313-4798-BD0E-49DCADE86044}.Debug|x64.ActiveCfg = Debug|x64
+		{02E66B3C-8313-4798-BD0E-49DCADE86044}.Debug|x64.Build.0 = Debug|x64
+		{02E66B3C-8313-4798-BD0E-49DCADE86044}.Debug|x64.Deploy.0 = Debug|x64
+		{02E66B3C-8313-4798-BD0E-49DCADE86044}.Release|x64.ActiveCfg = Release|x64
+		{02E66B3C-8313-4798-BD0E-49DCADE86044}.Release|x64.Build.0 = Release|x64
+		{02E66B3C-8313-4798-BD0E-49DCADE86044}.Release|x64.Deploy.0 = Release|x64
+		{F12CF9AD-2835-4D9D-8904-2D2D045DBCD4}.Debug|x64.ActiveCfg = Debug|x64
+		{F12CF9AD-2835-4D9D-8904-2D2D045DBCD4}.Debug|x64.Build.0 = Debug|x64
+		{F12CF9AD-2835-4D9D-8904-2D2D045DBCD4}.Release|x64.ActiveCfg = Release|x64
+		{F12CF9AD-2835-4D9D-8904-2D2D045DBCD4}.Release|x64.Build.0 = Release|x64
+		{693AD01D-22F8-4830-A239-C7ABC0F2F4B5}.Debug|x64.ActiveCfg = Debug|x64
+		{693AD01D-22F8-4830-A239-C7ABC0F2F4B5}.Debug|x64.Build.0 = Debug|x64
+		{693AD01D-22F8-4830-A239-C7ABC0F2F4B5}.Release|x64.ActiveCfg = Release|x64
+		{693AD01D-22F8-4830-A239-C7ABC0F2F4B5}.Release|x64.Build.0 = Release|x64
+		{5C90EA21-60EA-4C0C-9F6D-AAE545892F3C}.Debug|x64.ActiveCfg = Debug|x64
+		{5C90EA21-60EA-4C0C-9F6D-AAE545892F3C}.Debug|x64.Build.0 = Debug|x64
+		{5C90EA21-60EA-4C0C-9F6D-AAE545892F3C}.Release|x64.ActiveCfg = Release|x64
+		{5C90EA21-60EA-4C0C-9F6D-AAE545892F3C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
