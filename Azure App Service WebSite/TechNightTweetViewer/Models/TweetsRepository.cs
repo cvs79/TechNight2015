@@ -21,10 +21,7 @@ namespace TechNightTweetViewer.Models
                 using (var command = new SqlCommand(@"SELECT [ID], [Tweet], [Tweeter] FROM [dbo].[TechNightTweet]", connection))
                 {
                     command.Notification = null;
-
-                    //var dependency = new SqlDependency(command);
-                    //dependency.OnChange += new OnChangeEventHandler(dependency_OnChange);
-
+                    
                     if (connection.State == ConnectionState.Closed)
                         connection.Open();
 
@@ -42,14 +39,6 @@ namespace TechNightTweetViewer.Models
                 }
             }
             return techNightTweets;
-        }
-
-        private void dependency_OnChange(object sender, SqlNotificationEventArgs e)
-        {
-            if (e.Type == SqlNotificationType.Change)
-            {
-                //MessagesHub.SendMessages();
-            }
-        }
+        }        
     }
 }
